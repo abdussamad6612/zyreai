@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "ZYREAI",
+    "slug": "zyreai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "zyreai",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/favicon.png",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.zyreai.app"
+    },
+    "android": {
+      "package": "com.zyreai.app",
+      "backgroundColor": "#0D0705",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#0D0705"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "backgroundColor": "#0D0705",
+    "splash": {
+      "backgroundColor": "#0D0705",
+      "resizeMode": "contain",
+      "image": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
